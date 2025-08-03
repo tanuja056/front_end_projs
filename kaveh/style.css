@@ -220,7 +220,7 @@ body{
 }
 /* comm_sec */
 .comm_sec{
-    background-image: url('/images/genshin2.png');
+    background-image: url('images/genshin2.png');
     background-repeat: no-repeat;
     background-size: cover;
     color:#fff;
