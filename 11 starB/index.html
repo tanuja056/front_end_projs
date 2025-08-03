@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarB</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <head>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">COFFE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TEA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MENU</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex me-auto">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="SEARCH"
+                                aria-describedby="button-addon2">
+                            <button class="btn search_btn" type="submit" id="button-addon2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="grey"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+
+                    <p class="mb-0 basket_p me-4">MY BASKET</p>
+                    <div>
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">About</a>
+                        </div>
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="currentColor"
+                                class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </head>
+    <main>
+        <section class="drink_sec">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <img src="rew3.jpg" width="150px" height="40px"> <br>
+                        <button class="btn get_btn">GET MORE INFO</button>
+                    </div>
+                    <div class="happy_div ms-auto text-end">
+                        <h1 class="happy_h">
+                            The happiest hour <br> of the year
+                        </h1>
+                        <p class="happy_p mb-1">
+                            Sign up to get Exclusive access to deals on drinks this season.
+                        </p>
+                        <button class="btn send_btn">
+                            SEND ME MAGIC
+                        </button>
+                    </div>
+                </div>
+                <div class="drink_div">
+                    <div class="item_div">
+                        <img class="drink_img1" src="drink2.png">
+                        <div class="card_div">
+                            <h5>Midnight Mint <br>
+                                Mocha Frappuccino</h5>
+                            <p class="mb-1 cal_p">Calories</p>
+                            <ul class="drink_list">
+                                <li>
+                                    <p class="mb-0">Total Fat 19g</p>
+                                    <p class="mb-0">29%</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Saturated Fat 13g</p>
+                                    <p class="mb-0">65%</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Trans Fat 0.5g</p>
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <button class="btn add_btn rounded-pill">ADD TO BASKET</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_div">
+                        <img class="drink_img2" src="drink5.png">
+                        <div class="card_div">
+                            <h5>Midnight Mint <br>
+                                Mocha Frappuccino</h5>
+                            <p class="mb-1 cal_p">Calories</p>
+                            <ul class="drink_list">
+                                <li>
+                                    <p class="mb-0">Total Fat 19g</p>
+                                    <p class="mb-0">29%</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Saturated Fat 13g</p>
+                                    <p class="mb-0">65%</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Trans Fat 0.5g</p>
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <button class="btn add_btn rounded-pill">ADD TO BASKET</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_div">
+                        <img class="drink_img3" src="drink6.png">
+                        <div class="card_div">
+                            <h5>Midnight Mint <br>
+                                Mocha Frappuccino</h5>
+                            <p class="mb-1 cal_p">Calories</p>
+                            <ul class="drink_list">
+                                <li>
+                                    <p class="mb-0">Total Fat 19g</p>
+                                    <p class="mb-0">29%</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Saturated Fat 13g</p>
+                                    <p class="mb-0">65%</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Trans Fat 0.5g</p>
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <button class="btn add_btn rounded-pill">ADD TO BASKET</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_div">
+                        <img class="drink_img4" src="drink3.png">
+                        <div class="card_div">
+                            <h5>Midnight Mint <br>
+                                Mocha Frappuccino</h5>
+                            <p class="mb-1 cal_p">Calories</p>
+                            <ul class="drink_list">
+                                <li>
+                                    <p class="mb-0">Total Fat 19g</p>
+                                    <p class="mb-0">29%</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Saturated Fat 13g</p>
+                                    <p class="mb-0">65%</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Trans Fat 0.5g</p>
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <button class="btn add_btn rounded-pill">ADD TO BASKET</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script> //side_nav
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script> //drink_carousel
+        $('.drink_carousel').owlCarousel({
+            loop: false,
+            margin: 20,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

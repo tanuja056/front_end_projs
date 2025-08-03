@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+/* navbar */
+.navbar-nav .nav-link {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.basket_p {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color:#4a4a4a;
+  cursor: pointer;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #008f65;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.navbar .form-control{
+    border:none;
+    border-radius:0;
+    border-bottom:1px solid #a5a5a5;
+    font-size:11px;
+    padding:1px 2px;
+    letter-spacing: 2px;
+}
+.navbar .search_btn{
+    border-bottom:1px solid #a5a5a5;
+    border-radius:0;
+    padding:1px 2px;
+}
+.navbar .form-control:focus,.navbar .search_btn:focus{
+    box-shadow: none;
+}
+.navbar form{
+    width:300px;
+}
+/* drink section */
+.drink_sec{
+    padding:0 0 70px;
+}
+.happy_div{
+    width:450px;
+    padding-top:15px;
+}
+.happy_h{
+    font-size:55px;
+    font-weight:900;
+    letter-spacing: -2px;
+    font-family: 'Roboto', sans-serif;
+    color:#008f65;
+}
+.happy_p{
+    color:grey;
+    font-size:13px;
+}
+.send_btn{
+    color:grey;
+    border-radius:0;
+    font-size:13px;
+    font-weight:500;
+    padding:0 1px;
+    border-bottom:1.5px solid #008f65
+}
+.btn:focus{
+    box-shadow: none;
+}
+.get_btn{
+    color:grey;
+    border-radius:0;
+    font-size:13px;
+    font-weight:500;
+    padding:0 1px;
+    border-bottom:1.5px solid grey;
+    margin-top:10px;
+}
+.drink_div{
+    display:flex;
+    justify-content: space-between;
+}
+.card_div{
+    padding:125px 30px 0px;
+    background-color: #eeeeee;
+    color:#808080;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.drink_div .item_div{
+    padding-top:70px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.drink_div img {
+    position: absolute;
+    top:0;
+    left:90px;
+    width:100px;
+    height:180px;
+}
+.card_div h5{
+    font-weight: 600;
+    color:#646464;
+    margin:0 0 25px;
+}
+.drink_list{
+    padding-left:0px;
+    margin-bottom: 0;
+}
+.drink_list li{
+    display: flex;
+    justify-content: space-between;
+    font-size:13px;
+    padding:2px 0;
+}
+.cal_p{
+    font-size:13px;
+}
+.add_btn{
+    background-color: #fff;
+    color: #3e3e3e;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 6px 25px;
+    margin:5px 0 0;
+    letter-spacing:2px;
+    opacity:0;
+    transition: all 0.5s ease-in-out;
+}
+.item_div:hover .add_btn{
+    opacity:1;
+    transition: all 0.5s ease-in-out;
+}
+.item_div:hover{
+    /* scale:1.2; */
+    transform: scale(1.13, 1.17);
+    z-index:5;
+    transition: all 0.5s ease-in-out;
+}
+.item_div:hover .card_div{
+    background-color: #007551;
+    color:#fff;
+    padding-bottom:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.5s ease-in-out;
+}
+.item_div:hover .card_div h5{
+    color:#fff;
+    transition: all 0.5s ease-in-out;
+}
+.drink_carousel .owl-item img {
+    width: 100px;
+}

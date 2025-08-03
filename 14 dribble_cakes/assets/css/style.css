@@ -1,0 +1,107 @@
+body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+}
+.font2 {
+  font-family: "Nunito Sans", sans-serif;
+}
+/* navbar */
+nav {
+  background-color: #f8f2fc;
+}
+.pg_btn {
+  background-color: #1fc7d4;
+  color: #fff;
+  font-weight: 600;
+  padding: 4px 16px;
+  box-shadow: #1fc8d47c 0px 2px 6px;
+}
+.pg_btn:hover {
+  background-color: #1fc7d4;
+  color: #fff;
+  box-shadow: #1fc8d47c 0px 2px 12px;
+}
+.pg_btn2 {
+  color: #1fc7d4;
+  font-weight: 600;
+  border: 1px solid #1fc7d4;
+  padding: 4px 16px;
+}
+.pg_btn2:hover {
+  color: #1fc7d4;
+  border: 1px solid #1fc7d4;
+  box-shadow: #1fc8d47c 0px 2px 12px;
+}
+ul.navbar-nav {
+  background-color: #fff;
+  padding: 0 10px;
+}
+.nav-link {
+  padding: 0;
+}
+.nav-item {
+  margin: 10px;
+}
+/* banner section */
+.banner_sec {
+  background: #f8f2fc;
+  background: linear-gradient(180deg, #f8f2fc 0%, #ffffff 100%);
+}
+.new_main_div {
+  width: fit-content;
+  background-color: #f2e8fc;
+  font-size: 14px;
+}
+.new_main_div p {
+  color: #6940c4;
+  font-weight: 700;
+}
+.new_div {
+  background-color: #fff;
+}
+.banner_head {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  color: #280d5f;
+  font-weight: 800;
+}
+.star1 {
+  position: absolute;
+  top: 170px;
+  right: 200px;
+  animation: float 7s ease-in-out 1s infinite paused;
+  animation-play-state: running;
+}
+.star2 {
+  position: absolute;
+  bottom: 100px;
+  left: 540px;
+  animation: float 7s ease-in-out 1s infinite paused;
+  animation-play-state: running;
+}
+.star3 {
+  position: absolute;
+  top: 70px;
+  left: 480px;
+  animation: float 7s ease-in-out 1s infinite paused;
+  animation-play-state: running;
+}
+.star4 {
+  position: absolute;
+  top: 370px;
+  right: 480px;
+  animation: float 7s ease-in-out 1s infinite paused;
+  animation-play-state: running;
+}
+@keyframes float {
+  0% {
+    transform: rotate(10deg) translateY(0);
+  }
+  50% {
+    transform: rotate(5deg) translateY(-10px);
+  }
+  100% {
+    transform: rotate(10deg) translateY(0);
+  }
+}
