@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribble</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark hw1">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-camera2" viewBox="0 0 16 16">
+                        <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4z" />
+                        <path
+                            d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.972 5.972 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1zM2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0zM14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0z" />
+                    </svg>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Properties</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Members</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blogs</a>
+                        </li>
+                    </ul>
+                    <button class="btn login_but">Log In</button>
+                    <button class="btn sign_but">Sign Up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner_sec" id="banner_id">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="banner_head hw1">Choose Your Best Happy Land</h1>
+                        <h4 class="banner_subhead hw1"> Real Estate & Properties for Sale or Rent <br> In 12+ Country
+                        </h4>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img_div">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#f3f3f3d1"
+                                class="circle_svg bi bi-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            </svg>
+                            <img class="circle_i2" src="circle_i2.jpg">
+                            <img class="circle_i1" src="circle_i1.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex_sec" id="flex_id">
+            <div class="container">
+                <div class="banner_box">
+                    <ul class="nav nav-pills" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active buy_btn hw1" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#buy" type="button" role="tab" aria-controls="home"
+                                aria-selected="true">Buy</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link rent_btn" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#rent" type="button" role="tab" aria-controls="profile"
+                                aria-selected="false">Rent</button>
+                        </li>
+                    </ul>
+                    <div class="banner_div_bottom_main">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="buy" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="banner_div_bottom">
+                                    <div class="row">
+                                        <div class="col-md-3 property_col">
+                                            <h4>Property type</h4>
+                                            <p>Show all</p>
+                                        </div>
+                                        <div class="col-md-3 bed_col">
+                                            <h4>Bedrooms</h4>
+                                            <p>Any Beds</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h4>Price range</h4>
+                                            <p>Any price</p>
+                                        </div>
+                                        <div class="col md-3 m-auto text-center">
+                                            <button class="btn search_btn hw1">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="rent" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="banner_div_bottom">
+                                    <div class="row">
+                                        <div class="col-md-3 property_col">
+                                            <h4>Location</h4>
+                                            <p>Show all</p>
+                                        </div>
+                                        <div class="col-md-3 bed_col">
+                                            <h4>Amenities</h4>
+                                            <p>See all</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h4>Luxuries</h4>
+                                            <p>Show</p>
+                                        </div>
+                                        <div class="col md-3 m-auto text-center">
+                                            <button class="btn search_btn hw1">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_div">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3 class="flex_head hw1">Flexible services</h3>
+                            <p class="flex_para hw1">Born in Foosha Village, Luffy is the son of Monkey D. Dragon, the
+                                leader of the Revolutionary
+                                Army, and the grandson of the Marine hero Monkey D. Garp, and their family carries
+                                the initial and Will of D.</p>
+                            <button class="btn rounded-pill more_btn hw1">More about us</button>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="flex_bottom">
+                                <div class="row">
+                                    <div class="col-md-3 buy_home">
+                                        <h4>Buy a home</h4>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                            fill="currentColor" class="mt-2 bi bi-arrow-down-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                                        </svg>
+                                    </div>
+                                    <div class="col-md-3 rent_home">
+                                        <h4>Rent a home</h4>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                            fill="currentColor" class="mt-2 bi bi-arrow-down-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                                        </svg>
+                                    </div>
+                                    <div class="col-md-6 icon_div text-end">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                            fill="currentColor" class="mb-4 bi bi-card-image" viewBox="0 0 16 16">
+                                            <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                                            <path
+                                                d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54A.505.505 0 0 1 1 12.5v-9a.5.5 0 0 1 .5-.5h13z" />
+                                        </svg>
+                                        <h4>Visit Gallery</h4>
+                                        <p class="flex_para hw1">5 Centimeters Per Second, You guys asked for wallpapers
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                        class="mb-3 bi bi-camera2" viewBox="0 0 16 16">
+                        <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4z" />
+                        <path
+                            d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.972 5.972 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1zM2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0zM14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0z" />
+                    </svg>
+                    <p class="footer_para hw1">Wealth, Fame, Power. The man who had acquired everything in this world, the Pirate
+                        King, Gold Roger. The final words that were said at his execution sent people to the seas.</p>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                    <ul class="footer_list hw1">
+                        <li>
+                            <a href="#banner_id">Home</a>
+                        </li>
+                        <li>
+                            <a href="#flex_id">Properties</a>
+                        </li>
+                        <li>Members</li>
+                        <li>Pages</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="connect_div">
+                        <h5 class="mb-4">Connect with us</h5>
+                        <div class="svg_div mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="me-3 bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="me-3 bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="me-3 bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-twitch" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z" />
+                                <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z" />
+                            </svg>
+                        </div>
+                        <div class="footer_btns">
+                            <a class="phn hw1" href="tel:9990000">
+                                <button class="btn call_btn rounded-pill me-3">Call</button>
+                            </a>
+                            <a class="phn hw1" href="mailto:luffy@gmail.com">
+                                <button class="btn mail_btn rounded-pill">Mail</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
