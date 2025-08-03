@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+/* navbar */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 25px;
+}
+.btn:hover {
+  color: #fff;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.log_btn,
+.log_btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* banner section */
+.banner_sec {
+  padding: 50px 0 60px;
+}
+.banner_head {
+  margin: 0px 0 30px;
+  font-size: 55px;
+  font-weight: 600;
+}
+.exp_btn {
+  background-color: #000;
+  color: #fff;
+}
+.banner_carousel img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.banner_carousel .owl-stage-outer {
+  border-radius: 10px;
+}
+.banner_carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 140px;
+}
+.banner_carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 400px;
+  width: 140px;
+}
+.banner_carousel .owl-nav [class*="owl-"] {
+  margin: 0;
+}
+.banner_carousel .owl-nav [class*="owl-"]:hover {
+  background-color: transparent;
+}
+.banner_carousel .owl-nav [class*="owl-"] span {
+  color: transparent;
+}
+.banner_carousel .owl-stage {
+  /* transition: all 0.9s cubic-bezier(0.645, 0.045, 0.355, 1) 0s !important; */
+}
+.slide_div img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.slide_img_div {
+  width: 140px;
+  border-radius: 10px;
+  transition: all 0.9s ease-in-out;
+  position: relative;
+  margin-right: 10px;
+}
+.slide_img_div.active {
+  width: 440px;
+  transition: all 0.9s ease-in-out;
+}
+.img_info {
+  position: absolute;
+  bottom: 0;
+  padding: 120px 30px 20px;
+  color: #fff;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  background: transparent;
+  background: 
+/* bottom */ linear-gradient(
+    180deg,
+    rgba(15, 16, 20, 0) 10.08%,
+    rgba(15, 16, 20, 0.01) 36.84%,
+    rgba(15, 16, 20, 0.09) 43.74%,
+    #26282fe8
+  );
+  opacity:0;
+  transition: all 0.2s ease-in-out;
+}
+.slide_img_div.active .img_info{
+  opacity:1;
+  transition: all 0.9s ease-in-out;
+}
+.img_info_sm{
+  position: absolute;
+  top:200px;
+  left:0; right:0;
+  color:#fff;
+  transform: rotate(-90deg);
+  opacity:1;
+  transition: all 0.2s ease-in-out;
+}
+.slide_img_div.active .img_info_sm{
+  opacity:0;
+  transition: all 0.2s ease-in-out;
+}

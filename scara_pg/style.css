@@ -1,0 +1,43 @@
+.scara_div {
+    width: fit-content;
+}
+
+.scara_div img {
+    border-radius: 26px;
+    /* box-shadow: rgba(149, 157, 165, 1) 0px 5px 60px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.scara_text_div {
+    padding: 10px 16px;
+    /* background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(83, 63, 42, 1) 100%); */
+    background: rgb(83, 63, 43);
+    background: linear-gradient(180deg, rgba(83, 63, 43, 1) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 56%, rgba(83, 63, 43, 1) 100%);
+    border-radius: 26px;
+    left: 12px;
+}
+
+.date_div h6 {
+    color: #ffffffca;
+}
+
+.scara_bg {
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn_primary {
+    backdrop-filter: blur(6px);
+    color: #ffffffc7;
+    width: 220px;
+    padding: 4px 24px;
+    border:1px solid #ffffff0c;
+    /* font-size: 14px;  */
+}
+
+.btn_primary:hover,
+.btn_primary:active {
+    backdrop-filter: blur(10px);
+    color: #ffffffac;
+}

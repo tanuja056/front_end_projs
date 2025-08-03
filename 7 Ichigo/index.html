@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ichigo</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Ichigo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Download</a>
+                        </li>
+                    </ul>
+                    <button class="nav_btn btn">More</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner_sec">
+            <div class="container">
+                <img class="banner_bg" src="banner_bg1.png">
+                <div class="banner_info">
+                    <img class="scara_stk" src="scara_stk.png">
+                    <div class="info_div">
+                        <h4>Scaramouche</h4>
+                        <p class="info_p mb-0">Scaramouche was created as a proof of concept to test Raiden Ei's plans
+                            for an
+                            indestructible Gnosis bearing puppet.</p>
+                    </div>
+                </div>
+                <div class="scara_ig text-center">
+                    <img class="scara_header w-100" src="scara_header.jpg">
+                    <div class="ig_div">
+                        <img class="scara_dp" src="scara_dp2.jpg">
+                        <h6>Scaramouche</h6>
+                        <button class="btn follow_btn">Following</button>
+                    </div>
+                </div>
+                <div class="scara_btn_div">
+                    <button class="btn gi_btn">Genshin Impact</button> <br>
+                    <button class="btn anemo_btn">Anemo Boy</button>
+                </div>
+                <div class="icon_div">
+                    <div class="d-flex">
+                        <div class="icon_bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="#f5616b"
+                                class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                            </svg>
+                        </div>
+                        <div class="icon_bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="currentColor"
+                                class="bi bi-chat-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                <path
+                                    d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="icon_bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="currentColor"
+                                class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                        </div>
+                        <div class="icon_bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="currentColor"
+                                class="bi bi-share" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="date_div">
+                    <div class="d-flex">
+                        <div>31</div>
+                        <div>18</div>
+                    </div>
+                </div>
+                <div class="scara_name">
+                    <h1 class="mb-0">SCARAMOUCHE</h1>
+                </div>
+            </div>
+        </section>
+        <section class="intro_sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 my-auto">
+                        <h2 class="intro_head">Intro to our Beloved</h2>
+                        <p class="intro_p my-4">
+                            Scaramouche was created as a proof of concept to test Raiden Ei's plans for an
+                            indestructible
+                            Gnosis-bearing puppet. With his creation accomplished, Ei decided to leave him in a
+                            slumbering
+                            state, free from her control, as he had cried upon his creation.
+                        </p>
+                        <button class="check_btn btn">Check out</button>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <div class="intro_div">
+                            <img class="intro_img" src="intro_img2.jpg">
+                            <button class="scara_btn btn rounded-pill">Scaramouche</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery_sec">
+            <div class="container">
+                <!-- <h2 class="intro_head mb-4">Gallery</h2> -->
+            </div>
+            <div class="carousel3_sec">
+                <div class="carousel3_div">
+                    <div class="owl-carousel carousel3 owl-theme">
+                        <div class="item">
+                            <img src="gallery2.jpg">
+                            <div class="carousel3_img_div">
+                                <button class="btn carousel3_btn rounded-pill">Stream</button>
+                                Scaramouche
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="xiao2.jpg">
+                            <div class="carousel3_img_div">
+                                <button class="btn carousel3_btn rounded-pill">Stream</button>
+                                Xiao - Adapteus
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="xiao.jpg">
+                            <div class="carousel3_img_div">
+                                <button class="btn carousel3_btn rounded-pill">Stream</button>
+                                Xiao
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="yelan.jpg">
+                            <div class="carousel3_img_div">
+                                <button class="btn carousel3_btn rounded-pill">Stream</button>
+                                Yelan
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="gallery2.jpg">
+                            <div class="carousel3_img_div">
+                                <button class="btn carousel3_btn rounded-pill">Stream</button>
+                                Scaramouche
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="xiao2.jpg">
+                            <div class="carousel3_img_div">
+                                <button class="btn carousel3_btn rounded-pill">Stream</button>
+                                Xiao - Adapteus
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="xiao.jpg">
+                            <div class="carousel3_img_div">
+                                <button class="btn carousel3_btn rounded-pill">Stream</button>
+                                Xiao
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="gallery1.jpg">
+                            <div class="carousel3_img_div">
+                                <button class="btn carousel3_btn rounded-pill">Stream</button>
+                                Wanderer
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="yelan2.jpg">
+                            <div class="carousel3_img_div">
+                                <button class="btn carousel3_btn rounded-pill">Stream</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main_sec">
+            <div class="container">
+                <div class="main_div pb-4 d-flex justify-items-between">
+                    <div class="col-md-6">
+                        <div class="owl-carousel main_carousel owl-theme">
+                            <div class="item">
+                                <img class="w-100" src="scara7.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="w-100" src="scara6.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="w-100" src="scara8.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="w-100" src="scara9.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="main_head">Main Character</h2>
+                        <p class="my-4">After recovering and learning that Dottore was responsible for the Tatarasuna
+                            incident,
+                            Scaramouche erased all information of his entire existence from Irminsul, hoping to change
+                            the past and give those in the past a second chance in life.</p>
+                        <button class="check_btn btn">Check out</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="save_div d-flex">
+                            <div>
+                                <div class="sa_div">SA</div>
+                                <div class="ve_div">VE</div>
+                            </div>
+                            <div class="world_div">THE WORLD</div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="row card_row h-100">
+                            <div class="col-3">
+                                <div class="card_div">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="mb-2 bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg>
+                                        <h5>Scaramouche</h5>
+                                        <p class="mb-0">Fatui Harbengers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card_div">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="mb-2 bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg>
+                                        <h5>Raiden</h5>
+                                        <p class="mb-0">Electro Archon</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card_div">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="mb-2 bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg>
+                                        <h5>Yae Miko</h5>
+                                        <p class="mb-0">Shrine Maiden</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card_div">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="mb-2 bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg>
+                                        <h5>Ayato</h5>
+                                        <p class="mb-0">Kamisato Head</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="arti_sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 my-auto">
+                        <h2 class="arti_head main_head">Artifacts Showcase</h2>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="arti_div d-flex justify-content-end">
+                            <div class="arti_div1">
+                                <img class="w-100 mt-5" src="intro_img.jpg">
+                                <img class="w-100" src="blue_img6.jpg">
+                                <div class="arti_div3 arti_c2 text-center">
+                                    Wanderer
+                                </div>
+                            </div>
+                            <div class="arti_div1">
+                                <img class="w-100" src="blue_img3.jpg">
+                                <div class="arti_div3 text-center">
+                                    Scaramouche
+                                </div>
+                                <img class="w-100" src="blue_img4.jpg">
+                            </div>
+                            <div class="arti_div2">
+                                <img class="w-100" src="blue_img5.jpg">
+                                <img class="w-100" src="blue_img2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fill_sec">
+            <div class="">
+                <div class="fill_div">
+                    <img class="fill_img" src="new_img2.jpg">
+                    <div class="fill_info text-end">
+                        <h1 class="fill_head ">SCARAMOUCHE</h1>
+                        <p class="fill_p">Scaramouche was created as a proof of concept to test Raiden Ei's plans for an
+                            indestructible
+                            Gnosis-bearing puppet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="explore_sec">
+            <div class="container">
+                <div class="carousel4_sec">
+                    <div class="owl-carousel carousel4 owl-theme">
+                        <div class="item text-center">
+                            <h1 class="mb-4 fw-bold">Anya</h1>
+                            <img class="mx-auto mb-3" src="gallery4.jpg">
+                            <p>Mitsuba wears a yellow scarf with stripes. <br>A long-sleeved pink sweater.</p>
+                        </div>
+                        <div class="item text-center">
+                            <h1 class="mb-4 fw-bold">Scara</h1>
+                            <img class="mx-auto mb-3" src="gallery6.jpg">
+                            <p>Mitsuba wears a yellow scarf with stripes. <br>A long-sleeved pink sweater.</p>
+                        </div>
+                        <div class="item text-center">
+                            <h1 class="mb-4 fw-bold">Shun</h1>
+                            <img class="mx-auto mb-3" src="gallery5.jpg">
+                            <p>Mitsuba wears a yellow scarf with stripes. <br>A long-sleeved pink sweater.</p>
+                        </div>
+                        <div class="item text-center">
+                            <h1 class="mb-4 fw-bold">Ichigo</h1>
+                            <img class="mx-auto mb-3" src="scara1.jpg">
+                            <p>Mitsuba wears a yellow scarf with stripes. <br>A long-sleeved pink sweater.</p>
+                        </div>
+                        <div class="item text-center">
+                            <h1 class="mb-4 fw-bold">Nezuko</h1>
+                            <img class="mx-auto mb-3" src="scara2.jpg">
+                            <p>Mitsuba wears a yellow scarf with stripes. <br>A long-sleeved pink sweater.</p>
+                        </div>
+                        <div class="item text-center">
+                            <h1 class="mb-4 fw-bold">Yamada</h1>
+                            <img class="mx-auto mb-3" src="scara3.jpg">
+                            <p>Mitsuba wears a yellow scarf with stripes. <br>A long-sleeved pink sweater.</p>
+                        </div>
+                        <div class="item text-center">
+                            <h1 class="mb-4 fw-bold">Ichikawa</h1>
+                            <img class="mx-auto mb-3" src="scara10.jpg">
+                            <p>Mitsuba wears a yellow scarf with stripes. <br>A long-sleeved pink sweater.</p>
+                        </div>
+                        <div class="item text-center">
+                            <h1 class="mb-4 fw-bold">Nagisa</h1>
+                            <img class="mx-auto mb-3" src="gallery5.jpg">
+                            <p>Mitsuba wears a yellow scarf with stripes. <br>A long-sleeved pink sweater.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2 class="foot_head">Ichigo</h2>
+                    <p class="foot_p mb-0 me-2">Scaramouche was created as a proof of concept to test Ei's plans for
+                        an
+                        indestructible test Raiden. As a proof of concept to test Raiden Ei's plans for
+                        an
+                        indestructible.</p>
+                </div>
+                <div class="col-md-2">
+                    <ul class="foot_list">
+                        <li>Home</li>
+                        <li>Contact</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="mb-3">Get in Touch</h5>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="me-3 bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="me-3 bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-snapchat" viewBox="0 0 16 16">
+                        <path
+                            d="M15.943 11.526c-.111-.303-.323-.465-.564-.599a1.416 1.416 0 0 0-.123-.064l-.219-.111c-.752-.399-1.339-.902-1.746-1.498a3.387 3.387 0 0 1-.3-.531c-.034-.1-.032-.156-.008-.207a.338.338 0 0 1 .097-.1c.129-.086.262-.173.352-.231.162-.104.289-.187.371-.245.309-.216.525-.446.66-.702a1.397 1.397 0 0 0 .069-1.16c-.205-.538-.713-.872-1.329-.872a1.829 1.829 0 0 0-.487.065c.006-.368-.002-.757-.035-1.139-.116-1.344-.587-2.048-1.077-2.61a4.294 4.294 0 0 0-1.095-.881C9.764.216 8.92 0 7.999 0c-.92 0-1.76.216-2.505.641-.412.232-.782.53-1.097.883-.49.562-.96 1.267-1.077 2.61-.033.382-.04.772-.036 1.138a1.83 1.83 0 0 0-.487-.065c-.615 0-1.124.335-1.328.873a1.398 1.398 0 0 0 .067 1.161c.136.256.352.486.66.701.082.058.21.14.371.246l.339.221a.38.38 0 0 1 .109.11c.026.053.027.11-.012.217a3.363 3.363 0 0 1-.295.52c-.398.583-.968 1.077-1.696 1.472-.385.204-.786.34-.955.8-.128.348-.044.743.28 1.075.119.125.257.23.409.31a4.43 4.43 0 0 0 1 .4.66.66 0 0 1 .202.09c.118.104.102.26.259.488.079.118.18.22.296.3.33.229.701.243 1.095.258.355.014.758.03 1.217.18.19.064.389.186.618.328.55.338 1.305.802 2.566.802 1.262 0 2.02-.466 2.576-.806.227-.14.424-.26.609-.321.46-.152.863-.168 1.218-.181.393-.015.764-.03 1.095-.258a1.14 1.14 0 0 0 .336-.368c.114-.192.11-.327.217-.42a.625.625 0 0 1 .19-.087 4.446 4.446 0 0 0 1.014-.404c.16-.087.306-.2.429-.336l.004-.005c.304-.325.38-.709.256-1.047Zm-1.121.602c-.684.378-1.139.337-1.493.565-.3.193-.122.61-.34.76-.269.186-1.061-.012-2.085.326-.845.279-1.384 1.082-2.903 1.082-1.519 0-2.045-.801-2.904-1.084-1.022-.338-1.816-.14-2.084-.325-.218-.15-.041-.568-.341-.761-.354-.228-.809-.187-1.492-.563-.436-.24-.189-.39-.044-.46 2.478-1.199 2.873-3.05 2.89-3.188.022-.166.045-.297-.138-.466-.177-.164-.962-.65-1.18-.802-.36-.252-.52-.503-.402-.812.082-.214.281-.295.49-.295a.93.93 0 0 1 .197.022c.396.086.78.285 1.002.338.027.007.054.01.082.011.118 0 .16-.06.152-.195-.026-.433-.087-1.277-.019-2.066.094-1.084.444-1.622.859-2.097.2-.229 1.137-1.22 2.93-1.22 1.792 0 2.732.987 2.931 1.215.416.475.766 1.013.859 2.098.068.788.009 1.632-.019 2.065-.01.142.034.195.152.195a.35.35 0 0 0 .082-.01c.222-.054.607-.253 1.002-.338a.912.912 0 0 1 .197-.023c.21 0 .409.082.49.295.117.309-.04.56-.401.812-.218.152-1.003.638-1.18.802-.184.169-.16.3-.139.466.018.14.413 1.991 2.89 3.189.147.073.394.222-.041.464Z" />
+                    </svg>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn me-3">Sign Up</button>
+                    <button class="btn foot_btn">Log in</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script> //gallery_carousel
+        $('.carousel3').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    stagePadding: 70
+                },
+                600: {
+                    items: 1,
+                    stagePadding: 100
+                },
+                1000: {
+                    items: 1,
+                    stagePadding: 200
+                }
+            }
+        })
+    </script>
+    <script>//main_carousel
+        $('.main_carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+    <script>//carousel4
+        $('.carousel4').owlCarousel({
+            loop: true,
+            stagePadding: 280,
+            margin: 20,
+            dots: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
